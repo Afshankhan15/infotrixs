@@ -1,0 +1,67 @@
+
+/* Style for input fields */
+.inputval1 {
+  width: 30%; /* Set the width to 40% */
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 14px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Style for buttons */
+.btn1 {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: orange;
+}
+
+.data1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  width: 100%;
+}
+
+.datachild {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 60%;
+  margin-top: 8px;
+  padding: 0px 10px 0px 10px;
+}
+
+
+
+.action-buttons {
+  display: flex; /* Display buttons in a row */
+  gap: 20px; /* Add spacing between buttons */
+}
+
+.action-buttons button {
+  padding: 5px 10px; /* Add padding to buttons for better spacing */
+  background-color: #007bff; /* Change background color to your preferred color */
+  color: #fff; /* Change text color to white or your preferred color */
+  border: none; /* Remove button border */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+
+}
+
+.action-buttons button:hover {
+  background-color: #0056b3; 
+}
+
+
+
+
